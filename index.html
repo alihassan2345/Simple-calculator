@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <input readonly type="text" placeholder="0" name="" id="inp" />
+      <br />
+      <div class="clear-buttons">
+        <button onclick="clral()" class="clrs">Clear all</button>
+        <button onclick="clr()" class="clrs">Clear</button>
+      </div>
+      <br />
+
+      <div>
+        <button class="newbot" onclick="foo(9)">9</button>
+        <button class="newbot" onclick="foo(8)">8</button>
+        <button class="newbot" onclick="foo(7)">7</button>
+        <button
+          class="newbot"
+          style="background-color: #e4af32; font-size: 28px"
+          onclick="foo('+')"
+        >
+          +
+        </button>
+      </div>
+      <br />
+      <div>
+        <button class="newbot" onclick="foo(6)">6</button>
+        <button class="newbot" onclick="foo(5)">5</button>
+        <button class="newbot" onclick="foo(4)">4</button>
+        <button
+          class="newbot"
+          style="background-color: #e4af32; font-size: 28px"
+          onclick="foo('-')"
+        >
+          -
+        </button>
+      </div>
+      <br />
+      <div>
+        <button class="newbot" onclick="foo(3)">3</button>
+        <button class="newbot" onclick="foo(2)">2</button>
+        <button class="newbot" onclick="foo(1)">1</button>
+        <button
+          class="newbot"
+          style="background-color: #e4af32; font-size: 28px"
+          onclick="foo('*')"
+        >
+          x
+        </button>
+      </div>
+      <br />
+      <div>
+        <button class="newbot" onclick="foo(0)">0</button>
+        <button
+          class="newbot"
+          style="background-color: #e4af32; font-size: 28px"
+          onclick="foo('.')"
+        >
+          .
+        </button>
+        <button
+          class="newbot"
+          style="background-color: #e4af32; font-size: 28px"
+          onclick="foo('/')"
+        >
+          /
+        </button>
+
+        <button
+          class="newbot"
+          style="background-color: #efd702; font-size: 28px"
+          onclick="eq()"
+        >
+          =
+        </button>
+      </div>
+
+      <div>
+        <button
+          class="newbot"
+          style="background-color: #e4af32; font-size: 28px"
+          onclick="foo('%')"
+        >
+          %
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
